@@ -1,0 +1,56 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Ajusta la duración de la transición aquí */
+    width: 100%; /* Asegúrate de que el carrusel tenga un ancho del 100% del contenedor */
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Añade estos estilos para que el carrusel se comporte como se explicó */
+  /* Si estás utilizando botones, asegúrate de que los estilos coincidan con tu estructura HTML */
+  button#prevBtn, button#nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button#prevBtn {
+    left: 0;
+  }
+  
+  button#nextBtn {
+    right: 0;
+  }
+  .carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+    max-width: 100%; 
+    max-height: 200px; 
+    width: auto; 
+    height: auto; 
+}
